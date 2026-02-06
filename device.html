@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Downloads - havocOOS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">havoc</span><span class="logo-accent">OOS</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="download.html">Downloads</a></li>
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#gallery">Gallery</a></li>
+                <li><a href="index.html#about">About</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Device Header -->
+    <section class="device-header">
+        <div class="container">
+            <div id="deviceHeaderContent" class="device-header-content">
+                <!-- Device header will be loaded here -->
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading device information...</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+    </section>
+
+    <!-- Device Downloads -->
+    <section class="device-downloads">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Available Downloads</h2>
+                <p class="section-subtitle">Choose the version that's right for you</p>
+            </div>
+            <div id="downloadsList" class="downloads-list">
+                <!-- Downloads will be loaded here -->
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading downloads...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Instructions -->
+    <section class="device-installation">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Installation Instructions</h2>
+                <p class="section-subtitle">Follow these steps to install havocOOS on your device</p>
+            </div>
+            <div class="installation-steps">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Prerequisites</h3>
+                        <ul>
+                            <li>Unlocked bootloader</li>
+                            <li>Custom recovery (TWRP/OrangeFox)</li>
+                            <li>Latest firmware installed</li>
+                            <li>Backup all important data</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Download Required Files</h3>
+                        <ul>
+                            <li>Download the havocOOS ROM zip</li>
+                            <li>Download GApps (optional)</li>
+                            <li>Download Magisk (optional, for root)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Boot to Recovery</h3>
+                        <ul>
+                            <li>Power off your device</li>
+                            <li>Hold Volume Up + Power button</li>
+                            <li>Release when you see the recovery logo</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Wipe Data</h3>
+                        <ul>
+                            <li>In recovery, go to "Wipe"</li>
+                            <li>Select "Format Data"</li>
+                            <li>Type "yes" and confirm</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Flash ROM</h3>
+                        <ul>
+                            <li>Go to "Install" and select the ROM zip</li>
+                            <li>Swipe to flash</li>
+                            <li>Flash GApps if desired</li>
+                            <li>Flash Magisk if you want root</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <h3>Reboot</h3>
+                        <ul>
+                            <li>Go back to the main menu</li>
+                            <li>Select "Reboot" → "System"</li>
+                            <li>Wait for the first boot (may take 5-10 minutes)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Device Info -->
+    <section class="device-info-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Device Information</h2>
+            </div>
+            <div id="deviceInfo" class="device-info-grid">
+                <!-- Device info will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo">havoc</span><span class="logo-accent">OOS</span>
+                    <p class="footer-tagline">Experience Android like never before</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-link-group">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="download.html">Downloads</a></li>
+                            <li><a href="index.html#features">Features</a></li>
+                            <li><a href="index.html#gallery">Gallery</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4>Community</h4>
+                        <ul>
+                            <li><a href="#">Telegram</a></li>
+                            <li><a href="#">XDA Developers</a></li>
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Discord</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Report Bug</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 havocOOS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/device.js"></script>
+</body>
+</html>
