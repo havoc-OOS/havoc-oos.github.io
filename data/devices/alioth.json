@@ -1,0 +1,67 @@
+{
+  "id": "xiaomi-poco-f3",
+  "name": "POCO F3",
+  "codename": "alioth",
+  "brand": "xiaomi",
+  "status": "Stable",
+  "androidVersion": "14",
+  "romVersion": "4.9",
+  "maintainer": {
+    "name": "Jane Smith",
+    "username": "janesmith",
+    "email": "jane@example.com",
+    "telegram": "@janesmith",
+    "xda": "https://forum.xda-developers.com/m/janesmith.2345678/"
+  },
+  "deviceInfo": {
+    "chipset": "Qualcomm Snapdragon 870",
+    "cpu": "Octa-core (1x3.2 GHz & 3x2.42 GHz & 4x1.80 GHz)",
+    "gpu": "Adreno 650",
+    "ram": "6/8/12 GB",
+    "storage": "128/256 GB",
+    "display": "6.67 inches AMOLED, 120Hz",
+    "battery": "4520 mAh",
+    "camera": "48 MP + 8 MP + 5 MP / 20 MP"
+  },
+  "builds": [
+    {
+      "version": "4.9",
+      "type": "Official",
+      "date": "2024-01-10",
+      "size": "1.3 GB",
+      "md5": "d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8",
+      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/alioth/4.9/Havoc-OS-v4.9-20240110-alioth-Official.zip/download",
+      "changelog": [
+        "Updated Android security patch to January 2024",
+        "Fixed VoLTE issues",
+        "Improved gaming performance",
+        "Updated kernel to latest stable"
+      ]
+    },
+    {
+      "version": "4.8",
+      "type": "Official",
+      "date": "2023-12-18",
+      "size": "1.3 GB",
+      "md5": "e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9",
+      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/alioth/4.8/Havoc-OS-v4.8-20231218-alioth-Official.zip/download",
+      "changelog": [
+        "Updated to Android 14",
+        "New UI improvements",
+        "Fixed camera issues",
+        "Added new customization options"
+      ]
+    }
+  ],
+  "wallpaper": "images/alioth.jpg",
+  "screenshots": [
+    "images/screenshots/alioth-1.jpg",
+    "images/screenshots/alioth-2.jpg",
+    "images/screenshots/alioth-3.jpg"
+  ],
+  "knownIssues": [
+    "Some banking apps may not work with SafetyNet",
+    "Face unlock may be slower than stock"
+  ],
+  "notes": "Flash the latest firmware before installing this ROM. Backup your data before flashing."
+}

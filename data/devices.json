@@ -10,8 +10,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-15",
       "size": "1.2 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/vayu/4.9/Havoc-OS-v4.9-20240115-vayu-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-vayu-havoc-os-4-9-official.4567890/"
+      "dataFile": "data/devices/vayu.json"
     },
     {
       "id": "xiaomi-redmi-note-10-pro",
@@ -23,8 +22,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-12",
       "size": "1.4 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/sweet/4.9/Havoc-OS-v4.9-20240112-sweet-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-sweet-havoc-os-4-9-official.4567891/"
+      "dataFile": "data/devices/sweet.json"
     },
     {
       "id": "xiaomi-redmi-note-8-pro",
@@ -36,8 +34,7 @@
       "romVersion": "4.8",
       "buildDate": "2023-12-20",
       "size": "1.1 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/begonia/4.8/Havoc-OS-v4.8-20231220-begonia-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-13-begonia-havoc-os-4-8-official.4567892/"
+      "dataFile": "data/devices/begonia.json"
     },
     {
       "id": "xiaomi-poco-f3",
@@ -49,8 +46,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-10",
       "size": "1.3 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/alioth/4.9/Havoc-OS-v4.9-20240110-alioth-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-alioth-havoc-os-4-9-official.4567893/"
+      "dataFile": "data/devices/alioth.json"
     },
     {
       "id": "xiaomi-redmi-k20-pro",
@@ -62,8 +58,7 @@
       "romVersion": "4.10",
       "buildDate": "2024-01-18",
       "size": "1.5 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/raphael/4.10/Havoc-OS-v4.10-20240118-raphael-Beta.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-raphael-havoc-os-4-10-beta.4567894/"
+      "dataFile": "data/devices/raphael.json"
     },
     {
       "id": "oneplus-8",
@@ -75,8 +70,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-14",
       "size": "1.6 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/instantaneo/4.9/Havoc-OS-v4.9-20240114-instantaneo-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-instantaneo-havoc-os-4-9-official.4567895/"
+      "dataFile": "data/devices/instantaneo.json"
     },
     {
       "id": "oneplus-8-pro",
@@ -88,8 +82,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-14",
       "size": "1.7 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/instantaneod/4.9/Havoc-OS-v4.9-20240114-instantaneod-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-instantaneod-havoc-os-4-9-official.4567896/"
+      "dataFile": "data/devices/instantaneod.json"
     },
     {
       "id": "oneplus-9",
@@ -101,8 +94,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-16",
       "size": "1.8 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/lemonade/4.9/Havoc-OS-v4.9-20240116-lemonade-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-lemonade-havoc-os-4-9-official.4567897/"
+      "dataFile": "data/devices/lemonade.json"
     },
     {
       "id": "oneplus-9-pro",
@@ -114,8 +106,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-16",
       "size": "1.9 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/lemonadep/4.9/Havoc-OS-v4.9-20240116-lemonadep-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-lemonadep-havoc-os-4-9-official.4567898/"
+      "dataFile": "data/devices/lemonadep.json"
     },
     {
       "id": "samsung-galaxy-s21",
@@ -127,8 +118,7 @@
       "romVersion": "4.10",
       "buildDate": "2024-01-20",
       "size": "2.0 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/exynos2100/4.10/Havoc-OS-v4.10-20240120-exynos2100-Beta.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-exynos2100-havoc-os-4-10-beta.4567899/"
+      "dataFile": "data/devices/exynos2100.json"
     },
     {
       "id": "samsung-galaxy-s20-fe",
@@ -140,8 +130,7 @@
       "romVersion": "4.8",
       "buildDate": "2023-12-25",
       "size": "1.8 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/r8q/4.8/Havoc-OS-v4.8-20231225-r8q-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-13-r8q-havoc-os-4-8-official.4567900/"
+      "dataFile": "data/devices/r8q.json"
     },
     {
       "id": "google-pixel-6",
@@ -153,8 +142,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-08",
       "size": "1.9 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/oriole/4.9/Havoc-OS-v4.9-20240108-oriole-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-oriole-havoc-os-4-9-official.4567901/"
+      "dataFile": "data/devices/oriole.json"
     },
     {
       "id": "google-pixel-6-pro",
@@ -166,8 +154,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-08",
       "size": "2.1 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/raven/4.9/Havoc-OS-v4.9-20240108-raven-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-raven-havoc-os-4-9-official.4567902/"
+      "dataFile": "data/devices/raven.json"
     },
     {
       "id": "google-pixel-7",
@@ -179,8 +166,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-11",
       "size": "2.0 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/panther/4.9/Havoc-OS-v4.9-20240111-panther-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-panther-havoc-os-4-9-official.4567903/"
+      "dataFile": "data/devices/panther.json"
     },
     {
       "id": "google-pixel-7-pro",
@@ -192,8 +178,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-11",
       "size": "2.2 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/cheetah/4.9/Havoc-OS-v4.9-20240111-cheetah-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-cheetah-havoc-os-4-9-official.4567904/"
+      "dataFile": "data/devices/cheetah.json"
     },
     {
       "id": "google-pixel-8",
@@ -205,8 +190,7 @@
       "romVersion": "4.10",
       "buildDate": "2024-01-22",
       "size": "2.3 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/husky/4.10/Havoc-OS-v4.10-20240122-husky-Beta.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-husky-havoc-os-4-10-beta.4567905/"
+      "dataFile": "data/devices/husky.json"
     },
     {
       "id": "realme-gt-neo-3",
@@ -218,8 +202,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-13",
       "size": "1.4 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/matrice/4.9/Havoc-OS-v4.9-20240113-matrice-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-matrice-havoc-os-4-9-official.4567906/"
+      "dataFile": "data/devices/matrice.json"
     },
     {
       "id": "nothing-phone-1",
@@ -231,8 +214,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-17",
       "size": "1.5 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/spacewar/4.9/Havoc-OS-v4.9-20240117-spacewar-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-spacewar-havoc-os-4-9-official.4567907/"
+      "dataFile": "data/devices/spacewar.json"
     },
     {
       "id": "asus-rog-phone-6",
@@ -244,8 +226,7 @@
       "romVersion": "4.10",
       "buildDate": "2024-01-19",
       "size": "2.0 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/ai2202/4.10/Havoc-OS-v4.10-20240119-ai2202-Beta.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-ai2202-havoc-os-4-10-beta.4567908/"
+      "dataFile": "data/devices/ai2202.json"
     },
     {
       "id": "motorola-edge-30",
@@ -257,8 +238,7 @@
       "romVersion": "4.9",
       "buildDate": "2024-01-09",
       "size": "1.3 GB",
-      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/dubai/4.9/Havoc-OS-v4.9-20240109-dubai-Official.zip/download",
-      "changelogUrl": "https://forum.xda-developers.com/t/rom-14-dubai-havoc-os-4-9-official.4567909/"
+      "dataFile": "data/devices/dubai.json"
     }
   ]
 }

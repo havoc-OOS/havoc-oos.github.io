@@ -1,0 +1,82 @@
+{
+  "id": "xiaomi-poco-x3-pro",
+  "name": "POCO X3 Pro",
+  "codename": "vayu",
+  "brand": "xiaomi",
+  "status": "Stable",
+  "androidVersion": "14",
+  "romVersion": "4.9",
+  "maintainer": {
+    "name": "John Doe",
+    "username": "johndoe",
+    "email": "john@example.com",
+    "telegram": "@johndoe",
+    "xda": "https://forum.xda-developers.com/m/johndoe.1234567/"
+  },
+  "deviceInfo": {
+    "chipset": "Qualcomm Snapdragon 860",
+    "cpu": "Octa-core (1x3.2 GHz & 3x2.42 GHz & 4x1.80 GHz)",
+    "gpu": "Adreno 620",
+    "ram": "6/8 GB",
+    "storage": "128/256 GB",
+    "display": "6.67 inches IPS LCD, 120Hz",
+    "battery": "5160 mAh",
+    "camera": "48 MP + 8 MP + 2 MP / 20 MP"
+  },
+  "builds": [
+    {
+      "version": "4.9",
+      "type": "Official",
+      "date": "2024-01-15",
+      "size": "1.2 GB",
+      "md5": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/vayu/4.9/Havoc-OS-v4.9-20240115-vayu-Official.zip/download",
+      "changelog": [
+        "Updated Android security patch to January 2024",
+        "Fixed fingerprint sensor issues",
+        "Improved battery life",
+        "Performance optimizations",
+        "Updated kernel to latest stable"
+      ]
+    },
+    {
+      "version": "4.8",
+      "type": "Official",
+      "date": "2023-12-20",
+      "size": "1.2 GB",
+      "md5": "b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7",
+      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/vayu/4.8/Havoc-OS-v4.8-20231220-vayu-Official.zip/download",
+      "changelog": [
+        "Updated to Android 14",
+        "New UI improvements",
+        "Fixed camera issues",
+        "Added new customization options"
+      ]
+    },
+    {
+      "version": "4.7",
+      "type": "Official",
+      "date": "2023-11-15",
+      "size": "1.1 GB",
+      "md5": "c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8",
+      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/vayu/4.7/Havoc-OS-v4.7-20231115-vayu-Official.zip/download",
+      "changelog": [
+        "Initial Android 14 release",
+        "Updated base to latest AOSP",
+        "Performance improvements",
+        "Bug fixes and stability improvements"
+      ]
+    }
+  ],
+  "wallpaper": "images/vayu.jpg",
+  "screenshots": [
+    "images/screenshots/vayu-1.jpg",
+    "images/screenshots/vayu-2.jpg",
+    "images/screenshots/vayu-3.jpg"
+  ],
+  "knownIssues": [
+    "Face unlock may be slower than stock",
+    "Some banking apps may not work with SafetyNet"
+  ],
+  "notes": "Make sure to flash the latest firmware before installing this ROM. Backup your data before flashing."
+}

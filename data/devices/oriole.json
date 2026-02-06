@@ -1,0 +1,67 @@
+{
+  "id": "google-pixel-6",
+  "name": "Google Pixel 6",
+  "codename": "oriole",
+  "brand": "google",
+  "status": "Stable",
+  "androidVersion": "14",
+  "romVersion": "4.9",
+  "maintainer": {
+    "name": "Alex Johnson",
+    "username": "alexj",
+    "email": "alex@example.com",
+    "telegram": "@alexj",
+    "xda": "https://forum.xda-developers.com/m/alexj.3456789/"
+  },
+  "deviceInfo": {
+    "chipset": "Google Tensor",
+    "cpu": "Octa-core (2x2.80 GHz & 2x2.25 GHz & 4x1.80 GHz)",
+    "gpu": "Mali-G78 MP20",
+    "ram": "8 GB",
+    "storage": "128/256/512 GB",
+    "display": "6.4 inches OLED, 90Hz",
+    "battery": "4614 mAh",
+    "camera": "50 MP + 12 MP / 8 MP"
+  },
+  "builds": [
+    {
+      "version": "4.9",
+      "type": "Official",
+      "date": "2024-01-08",
+      "size": "1.9 GB",
+      "md5": "f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0",
+      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/oriole/4.9/Havoc-OS-v4.9-20240108-oriole-Official.zip/download",
+      "changelog": [
+        "Updated Android security patch to January 2024",
+        "Fixed fingerprint sensor issues",
+        "Improved battery life",
+        "Performance optimizations"
+      ]
+    },
+    {
+      "version": "4.8",
+      "type": "Official",
+      "date": "2023-12-15",
+      "size": "1.9 GB",
+      "md5": "g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1",
+      "downloadUrl": "https://sourceforge.net/projects/havoc-os/files/oriole/4.8/Havoc-OS-v4.8-20231215-oriole-Official.zip/download",
+      "changelog": [
+        "Updated to Android 14",
+        "New UI improvements",
+        "Fixed camera issues",
+        "Added new customization options"
+      ]
+    }
+  ],
+  "wallpaper": "images/oriole.jpg",
+  "screenshots": [
+    "images/screenshots/oriole-1.jpg",
+    "images/screenshots/oriole-2.jpg",
+    "images/screenshots/oriole-3.jpg"
+  ],
+  "knownIssues": [
+    "Face unlock may be slower than stock",
+    "Some banking apps may not work with SafetyNet"
+  ],
+  "notes": "Unlock bootloader before installing. Backup your data before flashing."
+}
